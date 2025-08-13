@@ -48,8 +48,8 @@ This will be automatically done during `pip install`
 TL;DR
 ------
 ~~~
-conda create -n sigpore python=3.9
-conda activate sigpore
+conda create -n sm-PORE-cupine python=3.9
+conda activate sm-PORE-cupine
 conda install -c bioconda viennarna=2.4.18
 git clone https://github.com/YueLab-GIS-ASTAR/libsigpore
 cd libsigpore
