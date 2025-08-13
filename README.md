@@ -7,7 +7,7 @@ Library holding utility functions to perform single molecule heterogeneity analy
 Description
 ===========
 
-Sigpore ingests Oxford Nanopore's Direct RNA sequencing data to automatically detect synthetic chemical probes used to identify RNA nucleotides that are not paired in a secondary structure fashion. These unstructured bases are biochemically reactive to NAIN3, a SHAPE-derivative that is routinely used in the lab for structure probing. This library supports the downstream analysis of Sigpore's processed results seen in notebooks.
+sm-PORE-cupine ingests Oxford Nanopore's Direct RNA sequencing data to automatically detect synthetic chemical probes used to identify RNA nucleotides that are not paired in a secondary structure fashion. These unstructured bases are biochemically reactive to NAIN3, a SHAPE-derivative that is routinely used in the lab for structure probing. This library supports the downstream analysis of sm-PORE-cupine's processed results seen in notebooks.
 
 Software Pre-requisites
 ------------------------
