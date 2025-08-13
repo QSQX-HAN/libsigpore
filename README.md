@@ -7,7 +7,7 @@ Library holding utility functions to perform single molecule heterogeneity analy
 Description
 ===========
 
-sm-PORE-cupine ingests Oxford Nanopore's Direct RNA sequencing data to automatically detect synthetic chemical probes used to identify RNA nucleotides that are not paired in a secondary structure fashion. These unstructured bases are biochemically reactive to NAIN3, a SHAPE-derivative that is routinely used in the lab for structure probing. This library supports the downstream analysis of sm-PORE-cupine's processed results seen in notebooks.
+Sigpore ingests Oxford Nanopore's Direct RNA sequencing data to automatically detect synthetic chemical probes used to identify RNA nucleotides that are not paired in a secondary structure fashion. These unstructured bases are biochemically reactive to NAIN3, a SHAPE-derivative that is routinely used in the lab for structure probing. This library supports the downstream analysis of Sigpore's processed results seen in notebooks.
 
 Software Pre-requisites
 ------------------------
@@ -48,8 +48,8 @@ This will be automatically done during `pip install`
 TL;DR
 ------
 ~~~
-conda create -n sm-PORE-cupine python=3.9
-conda activate sm-PORE-cupine
+conda create -n sigpore python=3.9
+conda activate sigpore
 conda install -c bioconda viennarna=2.4.18
 git clone https://github.com/YueLab-GIS-ASTAR/libsigpore
 cd libsigpore
